@@ -56,6 +56,15 @@ for i in range(n):
         sys.exit('Divide by zero error')
     for j in range(i+1,n):
         ratio=matrix[j][i]/matrix[i][i]
+
+
+
+
+
+
+
+
+
         for k in range(n+1):
             matrix[j][k]=matrix[j][k]-ratio*matrix[i][k]
 x[n-1]=matrix[n-1][n]/matrix[n-1][n-1]
